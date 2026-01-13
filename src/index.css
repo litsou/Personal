@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+/* 這裡可以放您的自定義樣式 */
+@theme {
+  --font-serif: "Noto Serif TC", serif;
+  --font-sans: "Noto Sans TC", sans-serif;
+}
+
+@keyframes loading {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(200%); }
+}
+
+.custom-scrollbar::-webkit-scrollbar { 
+  width: 0px; 
+}
